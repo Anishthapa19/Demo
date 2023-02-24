@@ -1,38 +1,26 @@
-.App {
-  text-align: center;
+.App{
+  font-family: Urbanist;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* apply custom fonts */
+@font-face {
+  font-family: 'Urbanist-Regular';
+  src: url('../public/Urbanist/Urbanist-Regular.ttf');
+}
+@font-face {
+  font-family: 'Urbanist-Medium';
+  src: url('../public/Urbanist/Urbanist-Medium.ttf');
+}
+@font-face {
+  font-family: 'Urbanist-semiBold';
+  src: url('../public/Urbanist/Urbanist-SemiBold.ttf');
+}
+@font-face {
+  font-family: 'Urbanist-Bold';
+  src: url('../public/Urbanist/Urbanist-Bold.ttf');
+}
+@font-face {
+  font-family: 'Urbanist-Black';
+  src: url('../public/Urbanist/Urbanist-Black.ttf');
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
